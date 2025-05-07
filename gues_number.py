@@ -11,4 +11,11 @@ def gues_number(comp_num):
         elif human_num == computer_number:
             break
     print ("wonderfoul you won")
+
+
 gues_number(computer_number)
+user_right = int(input("You want again y/n "))
+if user_right == "y":
+    gues_number(computer_number)
+else:
+    print("Thanks for game my friend")
